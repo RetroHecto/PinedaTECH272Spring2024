@@ -23,13 +23,19 @@
 		th, td {padding:6px; width:20%;}
 		th {width:10%; background-color:#ddd;}
 		tbody th {background-color:beige;}
-		td {width:22.5%; background-color:yellow;}
+		td {width:22.5%;}
 		tfoot td {color:white; background-color:black;}
 		td {text-align:center}
 		td+td, td+td+td {text-align:left;}
 		td+td+td+td {text-align:right;}
 		
-		
+		/* ALTERNATE ROW COLOR */
+		tbody tr:nth-child(odd) {background-color:yellow;}
+		tbody tr:nth-child(even) {background-color:orange;}
+
+		/* SPECIAL */
+
+		special {background-color:red; font-weight:bold;}
 		
 		/* FORM */
 		input, select, textarea, button {display:block; margin-bottom:6px; padding:3px;}
